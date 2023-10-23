@@ -2412,9 +2412,9 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 #### Q149. Which C++ construct is used for exception handling?
 
 - [x] try-catch
-- [ ]if-else
-- [ ]for loop
-- [ ]switch-case
+- [ ] if-else
+- [ ] for loop
+- [ ] switch-case
 
 #### Q150. What is the purpose of the `break` statement in a loop in C++?
 
@@ -2487,34 +2487,3 @@ class my_class{
 - [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
 - [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
-
-### Q.155 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
-
-- [ ]
-
-```
-  c = buff[16];
-	C = str[5];
-	C = * (buff+16);
-	c = * (str+5);
-```
-
-- [ ]
-
-```
-	C = *(buff[15]);
-	C = * (str[4]);
-	c = buff+15;
-	C-str+4;
-```
-
-- [ ]
-
-```
-  c = buff[15];
-	C = str[4];
-	c = (buff+15);
-	C = *(str+4);
-```
-
-[Reference](https://www.sanfoundry.com/cplusplus-interview-questions-answers/)
